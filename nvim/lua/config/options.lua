@@ -1,8 +1,11 @@
 local opt = vim.opt
 
---opt.termguicolors = true
+-- Line numbers
+opt.number = true
+
+-- Tabs & Indentation
 opt.tabstop = 2
 opt.shiftwidth = 2
-opt.number = true
+opt.autoindent = true
 
 vim.cmd("colorscheme onedark")
