@@ -17,7 +17,8 @@ require("lazy").setup({
 	},
 	ui = {
 		border = "rounded",
-    title = "Plugin Manager",
-		title_pos = "center",
+		title = "Plugin Manager",
+	        title_pos = "center",
 	}
 })
+
