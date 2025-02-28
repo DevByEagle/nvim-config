@@ -17,8 +17,16 @@ require("lazy").setup({
 	},
 	ui = {
 		border = "rounded",
-		title = "Plugin Manager",
-	        title_pos = "center",
-	}
+    title = "Plugin Manager",
+    title_pos = "center",
+	},
+	rocks = {
+		enabled = false,
+		hererocks = false,
+	},
+	-- Colorscheme that will be used when installing plugins.
+	install = { colorscheme = { "habamax" } },
+	-- Automatically check for plugin updates
+  checker = { enabled = true },
 })
 
